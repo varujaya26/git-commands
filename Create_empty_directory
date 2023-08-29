@@ -1,0 +1,16 @@
+#################################################################
+Add url as remote origin
+#################################################################
+git remote add origin $url
+git remote -v (list the url added as origin
+#################################################################
+Create a new directory "install_tomcat" and push it to url
+#################################################################
+  mkdir install_tomcat
+  ls
+  cd install_tomcat/
+  touch .placeholder
+  git add .
+  git status
+  git commit -m "Created directory hierarchy"
+  git push origin main
